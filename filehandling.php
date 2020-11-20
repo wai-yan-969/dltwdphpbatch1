@@ -12,7 +12,7 @@
 //    $handler=fopen($file,"r");
 
 //    $filesize=filesize($file);
-//    $data=fread($handler,$filesize);//Length 200
+//    $data=fread($handler,$filesize);//Length filesize
 //    echo $data;
 
     //Method 2 (String data return , No limit)
