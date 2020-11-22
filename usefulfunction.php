@@ -123,24 +123,6 @@
     ];
     echo json_encode($myarr2);
 
-
-
-    
-    
-
-
-   
-    
-
-
-
     // End CRYPT
-
-
-
-
-
-
-
 
 ?>
