@@ -13,7 +13,7 @@
 <head>
 <title>Form Handling 2</title>
 <style>
-    table{
+    /* table{
         margin:50px auto;
         background-color:pink;
         padding:20px;
@@ -34,7 +34,7 @@
         background-color:red;
         color:white;
         padding:2px;
-    }
+    } */
     div{
         background-image:url(img/paint2.jpeg);
         width:100%;

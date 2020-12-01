@@ -8,7 +8,7 @@
 <head>
 <title>Public Page</title>
 <style>
-    table{
+    /* table{
         margin:50px auto;
         background-color:pink;
         padding:20px;
@@ -29,7 +29,7 @@
         background-color:red;
         color:white;
         padding:2px;
-    }
+    } */
     div{
         background-image:url(img/paint1.png);
         width:100%;

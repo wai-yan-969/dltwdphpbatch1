@@ -1,9 +1,9 @@
 <?php
     session_start();
-    //Check session for redirect to private
-    if(isset($_SESSION["username"])){
-        header("Location:private.php");
-    }
+    //Check session for redirect to private //why?
+    // if(isset($_SESSION["username"])){
+    //     header("Location:private.php");
+    // } 
 
     require_once("menu.php");
     
@@ -18,7 +18,7 @@
            //Redirect
            header("Location:private.php");
         }else{
-            echo "<div><h4 class='errormsg'>Username and password do not match</h4></div>";
+            echo "<div><h4 class='errormsg'>Username and password do not match!</h4></div>";
         }
     }
 ?>
