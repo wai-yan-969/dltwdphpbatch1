@@ -1,11 +1,11 @@
 <?php
-   // Create File
+   // 1 Create File
 //    $file="fileserver/logs/test1.txt";
 //    $handler=fopen($file,"w");
 //    echo "file create";
    
 
-   //Read File
+   // 2 Read File
 
    //Method 1 (Binary Data Return , Limited charachters)
 //    $file="fileserver/logs/test1.txt";
@@ -27,6 +27,8 @@
     //     echo "No File Exists";
     // }
 
+    // 3  Write
+
     // $file="fileserver/logs/test1.txt";
     // $handler=fopen($file,"w");
     // $message1 = "I Love Myanmar";
@@ -36,7 +38,7 @@
     // fclose($handler);
     // echo "Successful write";
 
-    // Appending
+    // 4  Appending
     $file="fileserver/logs/test1.txt";
     $handler=fopen($file,"a");
     $message1 = "I Love Indo ";

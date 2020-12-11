@@ -1,9 +1,9 @@
 <?php
     session_start();
     //Check session for redirect to private //why?
-    // if(isset($_SESSION["username"])){
-    //     header("Location:private.php");
-    // } 
+    if(isset($_SESSION["username"])){
+        header("Location:private.php");
+    } 
 
     require_once("menu.php");
     

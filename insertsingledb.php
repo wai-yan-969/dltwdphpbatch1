@@ -6,6 +6,7 @@
 
     function dbconnection(){
         $db = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+        
         if(mysqli_connect_errno() > 0){
             die("Connection Failed");
         }else{
@@ -50,7 +51,7 @@
     // }
     // $password = passcode(123456);
 
-    // singledata("mgmg@gmail.com","123456","2020-11-29");
+    // singledata("mgmg@gmail.com",$password,"2020-11-29");
 
 
 

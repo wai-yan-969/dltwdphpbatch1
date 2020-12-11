@@ -1,3 +1,17 @@
+<?php
+
+    if(isset($_POST['submit'])){
+        $color=$_POST['color'];   
+        echo "My fav color is {$color}";
+    }
+
+    echo "<hr/>";
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,14 +32,3 @@
 </html>
 
 
-<?php
-echo "<hr/>";
-
-if(isset($_POST['submit'])){
- $color=$_POST['color'];   
- echo "My fav color is {$color}";
-}
-
-
-
-?>
