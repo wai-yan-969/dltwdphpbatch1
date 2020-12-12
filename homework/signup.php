@@ -125,7 +125,7 @@
 		}
 
 		input[id=lname]{
-			margin-left: 10px;
+			margin-left: 5px;
 		}
 
 		.user{

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d34f87-040d-4963-bde2-b8a8f9f02333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/filehandling.php" beforeDir="false" afterPath="$PROJECT_DIR$/filehandling.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/homework/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertsingledb.php" beforeDir="false" afterPath="$PROJECT_DIR$/insertsingledb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson19radioform.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson19radioform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/homework/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson22attachformmulti.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson22attachformmulti.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usefulfunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/usefulfunction.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +30,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/OOP" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,11 +43,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607689660791</updated>
-      <workItem from="1607689663040" duration="875000" />
+      <workItem from="1607689663040" duration="1233000" />
+      <workItem from="1607691008361" duration="146000" />
+      <workItem from="1607694042640" duration="2401000" />
+      <workItem from="1607701052661" duration="2773000" />
+      <workItem from="1607755817026" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

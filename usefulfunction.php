@@ -7,7 +7,7 @@
     echo "<br/>";
     echo number_format($num,"3");
     echo "<br/>";
-    echo number_format($num,"0",".","-");//4prarmeter 
+    echo number_format($num,"0",".","-");//4parameter
     echo "<br/>";
 
     // chunk-split (String Type = Serial number) (numeric ma ya)

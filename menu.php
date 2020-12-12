@@ -6,8 +6,8 @@
         a{
             margin:100px;
             text-decoration:none;
-            background-color:green;
-            color:white;
+            background-color: #008000;
+            color: #ffffff;
             padding:10px;
         }
         a:hover{

@@ -53,7 +53,7 @@ echo "<hr/>";
 </head>
 <body>
 <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
-<label for="attach">Files</lable> <br/> <br/>
+<label for="attach">Files</label> <br/> <br/>
 <input type="file" name="attach[]" id="attach" class="" multiple><br/><br/>
 <button type="submit" name="upload" id="upload" class="">Upload</button> 
 </form>
