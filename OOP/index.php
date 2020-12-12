@@ -17,6 +17,7 @@
     require_once("class_updateencapsulation.php");
     require_once("class_constructor.php");
     require_once("class_destructor.php");
+    require_once("class_inheritance.php");
 
 
 ?>
