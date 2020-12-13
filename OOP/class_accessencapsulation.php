@@ -10,4 +10,5 @@ $obj = new class_accessencapsulation();
 echo "This is access to Encapsulation" . "<br/>";
 $obj->getter();
 echo "<hr/>";
+
 ?>
