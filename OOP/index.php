@@ -27,6 +27,7 @@
     require_once("japancarinterface.php");
 
 
+
     class index implements uscarinterface,japancarinterface{
 
         private $cars;
@@ -38,7 +39,7 @@
         public function beautyprint(){
             echo "<pre>" .print_r($this->cars,true). "</pre>";
             echo "<br/>";
-            echo "So today I bought " . $this->cars[2] ."<br/>";
+            echo "So today I bought " . $this->cars[2] ."<hr/>";
         }
 
         public function madeinjapan($cars){
@@ -56,6 +57,19 @@ $obj->beautyprint();
 echo "This is US cars" . "<br/>";
 $obj->madeinus($arruscars);
 $obj->beautyprint();
+
+require_once("anonymousfunction.php");
+require_once("arraywalk.php");
+require_once("datatypechecking.php");
+require_once("datatypecasting.php");//check error and line
+require_once("objectcasting.php");
+require_once("returndatatype.php");
+require_once("class_magicgetandset.php");
+require_once("serializeandunserialize.php");
+require_once("class_magicsleepandwakeup.php");
+require_once("class_staticmodifier.php");
+require_once("class_magicissetandunset.php");
+require_once("class_magiccallandcallstatic.php");
 
 
 

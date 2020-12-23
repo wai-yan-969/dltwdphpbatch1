@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50e9095-56a7-497a-be7a-1c3ff9fa976a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_accessencapsulation.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessencapsulation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_accessmodifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_accessmodifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_constructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_constructor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_destructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_destructor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_inheritance.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_inheritance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_method.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_parentconstructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_parentconstructor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_properties.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_properties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_thisvariable.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_thisvariable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_trait.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_trait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_updateencapsulation.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_updateencapsulation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/interface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceoverwriting.php" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceoverwriting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/japancarinterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/japancarinterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uscarinterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/uscarinterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +61,16 @@
       <updated>1607756108905</updated>
       <workItem from="1607756110345" duration="11719000" />
       <workItem from="1607840685981" duration="9871000" />
-      <workItem from="1607857652371" duration="159000" />
+      <workItem from="1607857652371" duration="383000" />
+      <workItem from="1607958346078" duration="1705000" />
+      <workItem from="1608125246465" duration="8000" />
+      <workItem from="1608308308394" duration="4185000" />
+      <workItem from="1608359427020" duration="9571000" />
+      <workItem from="1608369100455" duration="1496000" />
+      <workItem from="1608445430138" duration="10368000" />
+      <workItem from="1608703420495" duration="6000" />
+      <workItem from="1608713026024" duration="13555000" />
+      <workItem from="1608741825781" duration="68000" />
     </task>
     <servers />
   </component>

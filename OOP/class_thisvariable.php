@@ -1,6 +1,6 @@
 <?php
 class class_thisvariable{
-    public $fullname = "Kyaw Kyaw";
+    private $fullname = "Kyaw Kyaw";
 
     public function getname(){
 //        echo $this->fullname;

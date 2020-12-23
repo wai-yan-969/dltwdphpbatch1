@@ -1,5 +1,6 @@
 <?php
 class class_accessencapsulation{
+
     private $fullname = "Kyaw Kyaw Aung";
 
     public function getter(){
