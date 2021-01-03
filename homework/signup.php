@@ -50,7 +50,7 @@
 		$result = mysqli_query($database,$query);
 
 		if($result){
-			echo "<div><h4 class='successmsg'>New record created successfully !</h4></div>";
+			header("Location:login.php");
 		 } else {
 			// echo $query;
 			echo "Error";
@@ -97,7 +97,7 @@
 			box-shadow:-5px -5px 18px black;
 		}
 	
-		h1,p{
+		p{
 			text-align: center;
 			margin-top:3px;
 		}
@@ -167,7 +167,7 @@
 		<fieldset>
 			<legend><i class="fab fa-themeisle"></i></legend>
 
-				<div class="container">
+				<div>
 
 					<p>If You want to Sign UP</p>
 					<p>Please fill in this form to create an account.</p>
