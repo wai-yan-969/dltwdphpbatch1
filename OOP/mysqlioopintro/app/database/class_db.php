@@ -101,6 +101,60 @@ class class_db{
         }
     }
 
+    public function getsguserinfo($id){
+        $stmt = $this->database->prepare("
+        SELECT 
+            ur.email as useremail,
+            st.name as status_name,
+            ur.created_at as crtdate
+        FROM
+            users as ur
+        LEFT JOIN 
+            status as st
+        ON
+            ur.status_id = st.id
+        WHERE 
+            ur.id = ?
+        ");
+        $stmt->bind_param("i",$id);
+        $stmt->execute();
+        $stmt->bind_result($useremail,$status_name,$crtdate);
+
+        while($stmt->fetch()){
+            echo "this user id is = ${id} and email is ${useremail} and he or she is ${status_name} stage and created date is ${crtdate}" . "<hr/>";
+        }
+    }
+
+    public function getalluserbystatusname($status_id){
+        $stmt = $this->database->prepare("
+        SELECT
+            ur.id as userid,
+            ur.email as useremail,
+            st.name as status_name,
+            ur.created_at as crtdate
+        FROM
+            status as st
+        RIGHT JOIN
+            users as ur
+        ON
+            ur.status_id = st.id
+        WHERE
+            st.id = ?
+        ");
+
+        $stmt->bind_param("i",$status_id);
+        $stmt->execute();
+        $stmt->bind_result($userid,$useremail,$status_name,$crtdate);
+
+        while($stmt->fetch()){
+            echo "user id is ${userid} and email is ${useremail} and status is ${status_name} stage and created date is ${crtdate}" . "<hr/>";
+        }
+    }
+
+    
+
+
+
 }
 
 ?>

@@ -28,6 +28,10 @@ class index{
 //        $this->db->updateuser(1,2);
 
 //        $this->db->deleteuser(14);
+
+        // $this->db->getsguserinfo(1);
+
+        // $this->db->getalluserbystatusname(1);
     }
 }
 

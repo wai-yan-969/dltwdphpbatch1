@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d34f87-040d-4963-bde2-b8a8f9f02333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/homework/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson22attachformmulti.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson22attachformmulti.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usefulfunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/usefulfunction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/app/auth/migration/class_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/app/migration/class_migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/composerautoload/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OOP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-patterns-php" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -48,6 +51,7 @@
       <workItem from="1607694042640" duration="2401000" />
       <workItem from="1607701052661" duration="2773000" />
       <workItem from="1607755817026" duration="277000" />
+      <workItem from="1610695194893" duration="252000" />
     </task>
     <servers />
   </component>
