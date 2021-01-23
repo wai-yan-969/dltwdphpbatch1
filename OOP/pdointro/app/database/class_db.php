@@ -9,7 +9,9 @@ class class_db{
 
     private $database;
 
-    public function __construct(){
+    private static $instance;
+
+    private function __construct(){
         // PDO(mysql:host;dbname,dbuser,dbpass);
 
         try{
@@ -17,12 +19,27 @@ class class_db{
             $this->database->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION);
 
             if($this->database){
-                echo "Successful Connection";
+                echo "Successful Connection" . "<br/>";
             }
 
         }catch(\Exception $err){
             echo $err->getMessage();
         }
-    } 
+    }
+    
+    
+    public static function getinstance(){
+
+       if(!self::$instance){
+           self::$instance = new class_db();
+       }
+
+        return self::$instance;
+    }
+
+    public function getdatabase(){
+        return $this->database;
+    }
+
 }
 ?>
