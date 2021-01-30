@@ -56,15 +56,31 @@ class index{
         // echo "<br/>";
 
         $this->db = new class_dbabslayer();
-        $this->db->getallusers(1);
+        $this->db->getallusers(2);
 
         echo "<hr/>";
 
-        $this->db->getsguser(1);
+        $this->db->getsguser(2);
 
         echo "<hr/>";
 
         // $this->db->deleteuser(20);
+
+        // $this->db->insertsguser("momo@gmail.com",123456,1);
+
+        $users = [
+            ["yoyo@gmail.com","123456",1],
+            ["momo@gmail.com","123456",1],
+            ["popo@gmail.com","123456",1],
+            ["jojo@gmail.com","123456",1],
+            ["vovo@gmail.com","123456",1],
+        ];
+
+        // $this->db->insertmultiusers($users);
+
+        // $this->db->updateuserstatus(27,2);
+
+        $this->db->getalluserbystatusname(2);
 
     }
 }
