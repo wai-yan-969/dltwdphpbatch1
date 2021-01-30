@@ -163,7 +163,7 @@
 	</style>
 </head>
 <body>
-	<form action="<?php $_SERVER["PHP_SELF"]; ?>" method="POST">
+	<form action="<?php $_SERVER["PHP_SELF"]; ?>" method="POST" autocomplete="off">
 		<fieldset>
 			<legend><i class="fab fa-themeisle"></i></legend>
 

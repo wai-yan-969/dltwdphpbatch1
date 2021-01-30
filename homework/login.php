@@ -95,7 +95,7 @@ a{
 </head>
 <body>
 
-  <form action="<?php $_SERVER["PHP_SELF"]; ?>"  method="POST">
+  <form action="<?php $_SERVER["PHP_SELF"]; ?>"  method="POST" autocomplete="off">
 
     <div class="container">
 
